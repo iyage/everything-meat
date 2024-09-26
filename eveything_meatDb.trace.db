@@ -1,0 +1,12 @@
+2024-09-26 19:08:01.528692+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER_ENTITY" not found (this database is empty); SQL statement:
+select ue1_0.id,ue1_0.alt_phone_number,ue1_0.created_at,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password,ue1_0.phone_number,ue1_0.updated_at from user_entity ue1_0 where ue1_0.email=? [42104-224]
+2024-09-26 19:35:00.224663+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select ue1_0.id,ue1_0.alt_phone_number,ue1_0.created_at,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password,ue1_0.phone_number,ue1_0.updated_at from users ue1_0 where ue1_0.email=? [42104-224]
+2024-09-26 19:42:33.372641+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select ue1_0.id,ue1_0.alt_phone_number,ue1_0.created_at,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password,ue1_0.phone_number,ue1_0.updated_at from users ue1_0 where ue1_0.email=? [42104-224]
+2024-09-26 19:49:31.622209+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+select ue1_0.id,ue1_0.alt_phone_number,ue1_0.created_at,ue1_0.email,ue1_0.first_name,ue1_0.last_name,ue1_0.password,ue1_0.phone_number,ue1_0.updated_at from users ue1_0 where ue1_0.email=? [42104-224]
