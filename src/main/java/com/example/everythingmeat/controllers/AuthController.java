@@ -20,7 +20,7 @@ public class AuthController {
     private ResponseEntity<ResponseDto> Auth(@RequestBody LoginDto loginDto){
         try{
             String token = authService.login(loginDto);
-            return  new ResponseEntity<ResponseDto>(new ResponseDto("Success",400,token), HttpStatus.OK);
+            return  new ResponseEntity<ResponseDto>(new ResponseDto("Success",200,token), HttpStatus.OK);
         }
         catch (Exception exp){
             exp.printStackTrace();
